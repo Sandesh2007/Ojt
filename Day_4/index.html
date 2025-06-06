@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 4</title>
+</head>
+
+<body>
+    <!-- table with students info -->
+
+    <table border="1" cellspacing="10" style="justify-self: center;">
+        <thead>
+            <tr>
+                <td>SN</td>
+                <td colspan="2" style="text-align: center;">Fullname</td>
+                <td>Roll no</td>
+                <td>Section</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Sandesh</td>
+                <td rowspan="2">Paudel</td>
+                <td>16</td>
+                <td rowspan="3" style="text-align: center;">A</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Sameer</td>
+                <td>17</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Sumit</td>
+                <td>Giri</td>
+                <td>18</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Rowspan colspan with different style -->
+
+    <table border="1" cellspacing="0" style=" height: 100px;width: 100px; ;margin-top: 10px; justify-self: center;">
+        <tbody>
+            <tr>
+                <td rowspan="4">A</td>
+            </tr>
+            <tr>
+                <td colspan="2">W</td>
+            </tr>
+            <tr>
+                <td>S</td>
+                <td>D</td>
+            </tr>
+            <tr>
+                <td>E</td>
+                <td>R</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Table with WASD -->
+    <table border="1" cellspacing="0"
+        style=" height: 100px;width: 70px; ;margin-top: 10px; justify-self: center; text-align: center; ">
+        <tbody>
+            <tr>
+                <td colspan="2" style="background-color: rgb(51, 242, 128);">W</td>
+            </tr>
+            <tr>
+                <td style="background-color: rgb(242, 131, 51);">A</td>
+                <td style="background-color: rgb(242, 223, 51);">S</td>
+            </tr>
+            <tr>
+                <td colspan="2" style="background-color: rgb(51, 242, 232);">D</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- table with  row 3 col -->
+    <table border="1" cellspacing="0"
+        style=" height: 100px;width: 80px; ;margin-top: 10px; justify-self: center; text-align: center;">
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td colspan="3">4</td>
+            </tr>
+            <tr>
+                <td colspan="2" rowspan="2" >4</td>
+                <td rowspan="2" >2</td>
+            </tr>
+            <tr>
+                <td colspan="2" >2</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

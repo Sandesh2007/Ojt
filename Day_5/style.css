@@ -1,0 +1,23 @@
+.top{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo{
+    background: violet;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    border: 3px solid rgb(212, 255, 0);
+}
+
+.logo p{
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+}
+
+h2{
+    text-align: center;
+}
