@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 6 Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2>Application Form</h2>
+    <main>
+        <div class="logo"></div>
+        <p>Your Photo</p>
+        <input type="file" name="image" id="image" class="inputs" >
+        
+        <form action="#" method="none">
+            <div class="container">
+
+                <!-- firstname -->
+                <label for="firstname" class="labels">First Name</label>
+                <input required type="text" name="" id="firstname" class="inputs">
+
+                <!-- lastname -->
+                <label for="lastname" class="labels">Last Name</label>
+                <input required type="text" name="" id="lastname" class="inputs">
+
+                <br><br>
+
+                <!-- DOB -->
+                <label for="DOB" class="labels">Date of birth</label>
+                <input type="date" id="DOB" class="inputs">
+
+                <!-- Age -->
+                <label for="age" class="labels">Age</label>
+                <input type="number" name="age" id="age" class="inputs" >
+
+                <!-- Gender -->
+                <label for="gender" class="labels">Gender</label>
+                <select name="gender" id="gender" class="dropdown">
+                    <option value="none">Select your gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+
+                <br><br>
+
+                <!-- Positions -->
+                <label for="position" class="labels">Position Available</label>
+                <br>
+                <div class="options">
+
+                    <input type="radio" name="dev-position" id="" value="jr-dev">
+                    <label for="jr-dev"> Junior Developer</label>
+
+                    <input type="radio" name="dev-position" id="" value="mid-dev">
+                    <label for="mid-dev"> Mid Level Developer</label>
+
+                    <input type="radio" name="dev-position" id="" value="sr-dev">
+                    <label for="se-dev"> Senior Developer </label>
+                </div>
+
+                <br>
+
+                <!-- Languages -->
+                <label for="languages" class="labels">Programming Languages</label>
+                <br>
+                <div class="options">
+
+                    <input type="checkbox" name="dev-position" id="" value="java">
+                    <label for="java"> Java </label>
+
+                    <input type="checkbox" name="dev-position" id="" value="js">
+                    <label for="js"> Java Script </label>
+
+                    <input type="checkbox" name="dev-position" id="" value="python">
+                    <label for="python"> Python </label>
+                </div>
+                <br>
+
+                <!-- email -->
+                <label for="email1" class="labels">Email</label>
+                <input required type="email" name="" id="email1" placeholder="Enter your email" class="inputs">
+
+                <br><br>
+
+                <!-- password -->
+                <label for="passwd" class="labels">Password</label>
+                <input required placeholder="Enter your password" type="password" name="" id="passwd" class="inputs">
+
+                <br><br>
+
+                <!-- Confirm password -->
+                <label for="confirm-passwd" class="labels">Confirm Password</label>
+                <input required placeholder="Confirm password" type="password" name="" id="confirm-passwd"
+                    class="inputs">
+
+                <br><br>
+
+                <div class="buttons">
+
+                    <!-- Submit button -->
+                    <button type="submit" class="butn">Submit</button>
+
+                    <!-- Reset button -->
+                    <button type="reset" class="butn" id="reset">Reset</button>
+                </div>
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+    padding: 20px;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.container-twt{
+    padding: 20px;
+    width: 260px;
+    height: 460px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 8px;
+    transition: 300ms;
+    margin-bottom: 10px;
+}
+.container-twt:hover{
+    background: linear-gradient(#3ed2d4, #8689b0aa);
+}
+.container-ins{
+    padding: 20px;
+    width: 260px;
+    height: 460px;
+    background-color: white;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 8px;
+    transition: 300ms;
+}
+.container-ins:hover{
+    background: linear-gradient(#d73b26, #f10222ad);
+    color: white;
+}
+.container-yt{
+    padding: 20px;
+    width: 260px;
+    height: 460px;
+    background-color: white;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 8px;
+    transition: 300ms;
+}
+.container-yt:hover{
+    background: linear-gradient(#ff1e00, #ed0905ac);
+    color: white;
+}
+
+#name{
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#logo{
+    height: 60px;
+}
+
+#skip{
+    text-align: center;
+}
+
+.btn{
+    all: unset;
+    background-color: black;
+    color: white;
+    border-radius: 22px;
+    width: 80%;
+    /* transition: 200ms ; */
+}
+/* .btn:hover{
+    background-color: rgb(44, 216, 44);
+    color: black;
+} */
