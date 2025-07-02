@@ -1,22 +1,17 @@
-console.log("Hello js");
-
-let uname = ""
-
-const firstPromise = new Promise((resolve, reject) => {
-    setTimeout(()=> {
-        console.log("This prints after 3 secs");
-        uname = "sandesh"
-        resolve()
-    },3000)
-})
-
-firstPromise.catch(() => {
-    console.error("Error at ln:14");
-})
-.finally(()=>{
-    console.log(uname);
-})
-let marks ={
-    name: "sandesh",
-    mark: 80
+function work() {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve("Work done");
+        }, 1000)
+    })
 }
+
+function goHome() {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve("Went home")
+        }, 3000)
+    })
+}
+
+work().then(result => {console.log(result); return goHome()}).then(result => {console.log(result); console.log("Sleep")})
